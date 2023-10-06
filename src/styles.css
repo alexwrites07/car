@@ -1,0 +1,204 @@
+/* Add these styles to your App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:#b0c4de;
+  }
+  .cv{
+    
+    border:3px;
+    border-color:black;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size:10px;
+    box-shadow: 10px 5px 10px 5px  #add8e6;
+  }
+  .componento{
+    margin-left:80%;
+    margin-top:3%;
+  }
+  .prev-button{
+    margin-left:-80%;
+  }
+  .next-button{
+    margin:0 6%;
+  }
+  .component {
+    flex: 0 0 calc(33.33% - 20px);
+   
+    
+    text-align: center;
+    margin: 0 10px 20px 10px;
+  }
+  
+  .lastInRow {
+    margin-right: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .component {
+      flex: 0 0 calc(50% - 20px);
+    }
+  }
+  /* Add this to Slider.css */
+.slider-container {
+  width: 20%;
+  margin-left:30%;
+  position:relative;
+  top:70%;
+}
+.page-viewer{
+  width: 20%;
+  margin-left:70%;
+  position:relative;
+  top:70%;
+}
+
+/* In Slider.css */
+
+
+/* .slick-slider {
+  width: 100%;
+}
+
+.slider-item {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px;
+  text-align: center;
+  user-select: none;
+}
+
+.slider-item.active {
+  background-color: #007bff;
+  color: #fff;
+} */
+/* Add this to Slider.css */
+/* .slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slick-slider {
+  width: 100%;
+}
+
+.slider-item {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px;
+  text-align: center;
+  user-select: none;
+  width: 40px; /* Adjust as needed */
+/* }
+
+.slider-item.active {
+  background-color: #007bff;
+  color: #fff;
+} */ 
+/* Add this to Slider.css */
+.slider-container {
+  width: 50%;
+  margin-left:40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slick-slider {
+  width: 100%;
+}
+
+/* In Slider.css */
+.slider-item {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px;
+  text-align: center;
+  user-select: none;
+  width: 40px; /* Adjust as needed */
+}
+
+.slider-item.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.page-viewer{
+  width: 50%;
+  margin-left:90%;
+  
+}
+.xc
+{
+  margin:10px;
+}
+.search-container{
+  width:70%;
+  display:flex;
+  gap:3%;
+  box-shadow: 10px 5px 10px 5px  #add8e6;
+}
+input{
+  width:50%;
+  height:40%;
+}
+.search-containe{
+  /* width:40%; */
+  height:60%;
+  margin-top:-0.5%;
+  display:flex;
+  gap:3%;
+}
+.a{
+  position:relative;
+  left:-30%;
+  top:3%;
+  margin:8% 0;
+  
+}
+.b{
+  position:relative;
+  right:-35%;
+  top:-20%;
+  margin:8% 0;
+}
+.c{
+  position:relative;
+  left:-30%;
+  top:-25%;
+  margin:8% 0;
+}
+.d{
+  position:relative;
+  right:-35%;
+  top:-52%;
+  margin:8% 0;
+}
+.e{
+  position:relative;
+  left:-30%;
+  top:-55%;
+  margin:8% 0;
+}
+.f{
+  position:relative;
+  right:-35%;
+  top:-95%;
+  margin:8% 0;
+  background-color:blue;
+  color:white;
+}
